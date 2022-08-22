@@ -1,0 +1,1 @@
+<marquee><p font-size="10px"> Chào mừng bạn đến với trang chủ admin</p></marquee>

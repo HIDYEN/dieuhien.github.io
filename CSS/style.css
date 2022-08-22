@@ -1,0 +1,205 @@
+body{
+    margin:0;
+    padding:0;
+}
+.wrapper{
+ 
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+}
+.header{	
+      
+       background: center;
+       height: 600px;
+       width: 100%;
+       background-image: url(../images/2.jpg);
+       background-repeat: no-repeat;
+       background-size: 100% 1000px;
+   }
+.text:hover{
+    color: #d3b83e;
+    
+
+  
+}
+.banner{	
+      
+  background: center;
+    height: 400px;
+    width: 100%; 
+    background-image: url(../images/55.jpg);
+   
+    background-repeat: no-repeat;
+    background-size: 100% 400px;
+    
+}
+
+
+.dropdowm_menu{
+    padding-top: 10px;
+    background: #d3b83e;
+
+}
+
+.container{
+    
+    max-width: 960px;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+#logo{
+    padding: 5px 0px;
+
+}
+#logo img{
+    max-width: 80px;
+    height: auto;
+}
+#dropmenu{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+   
+
+}
+
+#dropmenu li {
+    position: relative;
+   
+}
+#dropmenu li a{
+    color: black;
+    display: block;
+    padding: 9px 20px;
+    text-decoration: none;
+   
+}
+
+#dropmenu li:hover>a{
+    
+    color: #ff5352;
+
+}
+#dropmenu ul.menucon{
+    position: absolute;
+    background-color: #d3b83e;
+    padding: 15px 0px;
+    list-style: none;
+    width: 250px;
+    display: none;
+
+}
+#dropmenu li:hover ul.menucon{
+    display: block;
+    
+
+}
+#dropmenu .menucon li:hover a{
+    color: #ff5352;
+}
+#dropmenu ul.menucon a {
+    padding: 8px 15px;
+    border-bottom :1px solid #333; 
+}
+#dropmenu ul.menucon li:hover>a{
+    border-bottom :1px solid #ff5352; 
+}
+#dropmenu ul.menucon li:last-child a{
+    border: none;
+}
+#dropmenu>li>a{
+    position: relative;
+}
+#dropmenu>li>a ::before{
+    content: "";
+    height: 4px;
+    width: 100%;
+    background: #ff5352;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    display: none;
+}
+#dropmenu>li:hover>a ::before{
+   
+    color: #ff5352;
+}
+.viet {
+    width: 80%;
+    padding-left: 20%;
+}
+.main {
+  
+    height: auto;
+    width: 100%;
+    background: white;
+}
+.slidebar{
+
+    
+    height: 390px;
+    width: 20%;
+    margin-top: 5px;
+    margin-left: 5px;
+    float: left;
+}
+.tieude {
+    text-align: center;
+    background-color: #d3b83e;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border: 1px solid;
+    width: 100%;
+    
+}
+#dulich{
+    margin: 0 auto;
+    padding: 0;
+    height: auto;
+    width: auto;
+}
+
+.maincontent{
+ 
+    height: auto;
+    width: 79%;
+    margin-top: 5px;
+    margin-left: 5px;
+    float: right;
+}
+.trangchu {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding-top: 5px;
+    padding-left: 10px;
+   
+}
+
+.footer {
+   /* border: 1px solid #000;*/
+    width: 100%;
+    background: #d3b83edf;
+    height: 120px;
+    
+}
+.clear{
+    clear: both;
+}
+.col-md-4 product-men mt-5{
+    text-align: left;
+    margin-top: 3rem!important;
+}
+.thumbnail a>img, .thumbnail>img {
+    margin-right: auto;
+    margin-left: auto;
+    height: 200px;
+    width: 400px;
+}
+
